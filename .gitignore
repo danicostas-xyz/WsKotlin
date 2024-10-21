@@ -1,0 +1,53 @@
+# Kotlin specific
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+*.swp
+*.swo
+*.db
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+**/build/
+**/out/
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Android Studio specific
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/gradle.xml
+/.idea/encodings.xml
+/.idea/copyright/profiles_settings.xml
+.DS_Store
+/local.properties
+/.gradle
+/captures
+.externalNativeBuild
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
